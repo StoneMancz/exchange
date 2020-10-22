@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"transfer-legal"}},[_c('div',{staticClass:"title"},[_vm._v(_vm._s(_vm.$t('asset.transfer')))]),_vm._v(" "),_c('div',{staticClass:"types"},[_c('div',{staticClass:"types-l"},[_c('div',[_vm._v(_vm._s(_vm.$t('asset.from')))]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.$t('asset.to')))])]),_vm._v(" "),_c('div',{staticClass:"types-r"},[_c('div',[_c('div',[_vm._v(_vm._s(_vm.types[0]))]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.types[1]))])]),_vm._v(" "),_c('img',{attrs:{"src":require("../../static/imgs/transfer1.png"),"alt":""},on:{"click":function($event){_vm.types.reverse();_vm.number='';_vm.type=_vm.type==1?2:1;}}})])]),_vm._v(" "),_c('div',{staticClass:"number"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.number),expression:"number"}],staticClass:"bdb input_color",attrs:{"type":"number","placeholder":_vm.$t('asset.pNum')},domProps:{"value":(_vm.number)},on:{"input":function($event){if($event.target.composing){ return; }_vm.number=$event.target.value}}}),_vm._v(" "),_c('span',{staticStyle:{"color":"#61688a"}},[_vm._v(_vm._s(_vm.name))]),_vm._v(" "),_c('span',{staticClass:"all",on:{"click":_vm.all}},[_vm._v(_vm._s(_vm.$t('td.all')))])]),_vm._v(" "),_c('div',{staticClass:"balance",staticStyle:{"line-height":"60px","margin":"20px 0 0 0px"}},[_vm._v(_vm._s(_vm.$t('fat.busbalance'))+"："+_vm._s(_vm.seller_balance))]),_vm._v(" "),_c('div',{staticClass:"balance",staticStyle:{"margin":"5px 0 30px 0"}},[_vm._v(_vm._s(_vm.$t('fat.userbalance'))+"："+_vm._s(_vm.user_balance))]),_vm._v(" "),_c('button',{staticClass:"transfer",attrs:{"type":"button"},on:{"click":_vm.transfer}},[_vm._v(_vm._s(_vm.$t('asset.transfer')))])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-3bae0bb1","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/transferstore.vue
+// module id = null
+// module chunks = 

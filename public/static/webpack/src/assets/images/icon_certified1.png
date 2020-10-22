@@ -1,0 +1,8 @@
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAVFBMVEX///////////////////////////////8AAAD///////////////////////////////////////////////////////////////////////////9sydZbAAAAHHRSTlNmYVpKZdEv7AAMQmy/5iOGcXTakcp7tuCiqx8OM1HbUwAAANxJREFUKM+FUlkWgyAMjAtQNsUNtb3/PRuSqP3gvc6POAMZMgReDKu7tmnaTlshgGnXg6B39hHeDfygGS5B8/YHmoWBfvyh4nwmVoYiWKqTlCnYN65mUXC0DIahgOBeYMlgMhdGvpsFTYvlFg7xh64qIN1CrRTS0lsWfr0CuAS/Eh/SLbQinIXPPsd4eirF5ttc+JhCaSWTuSbvnQ2mwm8Rj2hukA1M2Myy4uEJG6RIRsOYYVY+4AcchxjuJsa4mzhiiBx7UIIMaVmSxF5/qPrT/h8GGZ++x/H5CPEFY9UNFkJAULkAAAAASUVORK5CYII="
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/assets/images/icon_certified1.png
+// module id = CZLu
+// module chunks = 16

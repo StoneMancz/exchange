@@ -1,0 +1,8 @@
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAARVBMVEUAAABWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/TGe+7xAAAAFnRSTlMAGae18cJnC+pFjEw4btElX9+Z9TxPHEKyzgAAAIdJREFUGNN10EkOwyAUA1AnkDAPGfrvf9TyqUQoKG/hhREWAu+WICSRFGFplbLUWIUqHdQ5Ur2q6Y/miY0GAjA0MVjncoXmPEucfGxFCQmeBiJFQPMcFTWc4aUPkfS5lhtNNoS53KGusZMKcPMzi328XOWu0jd+7lbFXeEpr+yd8wqPxF/b+wIrtBZ23AwJagAAAABJRU5ErkJggg=="
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/assets/images/icon_news_s.png
+// module id = 2e81
+// module chunks = 16

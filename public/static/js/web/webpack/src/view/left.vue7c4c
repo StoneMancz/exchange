@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"leftNav ft16 bg-part"},[_c('ul',{staticClass:"fColor1"},_vm._l((_vm.array),function(item,index){return _c('li',{key:index,class:index == _vm.curActive ? 'active' :'',on:{"click":function($event){_vm.goto(index,item.page)}}},[_c('img',{attrs:{"src":index == _vm.curActive ? item.src2 : item.src1}}),_vm._v(" "),_c('span',[_vm._v(_vm._s(item.text))])])}))])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-1269804d","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/left.vue
+// module id = null
+// module chunks = 

@@ -1,0 +1,72 @@
+.space-single:nth-child(7) .button{
+  /*background: #344568;*/
+  /*color: #fff;*/
+  /*float: left !important;*/
+  /*position: absolute;*/
+  /*left: 20px;*/
+}
+.my2{
+  /*background: none;不能删*/
+}
+.chart-page .chart-container{
+  border: none;
+}
+.header-group-bars-style{
+  display: none !important;
+}
+.header-group-symbol-search{
+  display: none !important;
+}
+.header-group-properties{
+  float: right;
+}
+.header-group-indicators{
+  float: right;
+}
+.header-group-fullscreen{
+  float: right;
+}
+
+.apply-overflow-tooltip{
+  /*color: #fff !important;*/
+  /*font-size: 19px !important;*/
+}
+
+/*.header-chart-panel .group:nth-child(2){*/
+/*background: red !important;*/
+/*}*/
+.bottom-widgetbar-content.backtesting .button, .header-chart-panel .button{
+  /*width: 20px;*/
+  padding: 7px 12px;
+  border: none;
+  background: none;
+  /*height: 30px;*/
+  /*line-height: 15px;*/
+  color: #4e5b85;
+}
+.mydate{
+  /*margin-left: 20px;*/
+  background: #344568 !important;
+  color: #fff !important;
+}
+.js-rootresizer__contents{
+  background:#1a243b
+}
+.header-chart-panel .group.header-group-properties{
+	display: block !important;
+}
+.pane-legend-item-value-wrap .pane-legend-item-value:first-child{
+	display: none;
+}
+/* .pane-legend{
+  display: none;
+} */
+.button.indicators svg {
+  fill: #4e5b85;
+}
+.button.fullscreen svg {
+  fill: #4e5b85;
+}
+.button.properties svg {
+  fill: #4e5b85;
+}

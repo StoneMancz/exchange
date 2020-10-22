@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('index-header'),_vm._v(" "),_c('div',{staticClass:"account-wrap"},[_c('div',{staticClass:"account"},[_c('div',[_c('div',{staticClass:"back-nav fColor1 ft20"},[_vm._v("\n                    设置提币密码\n                    "),_c('span',{staticClass:"fr fColor2 mouseDefault",on:{"click":_vm.goBack}},[_vm._v("<<返回")])]),_vm._v(" "),_c('div',{staticClass:"nav-after"})]),_vm._v(" "),_vm._m(0)])])],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"account-content"},[_c('div',{staticClass:"main ft14"},[_c('div',[_c('span',{staticClass:"fColor2 left"},[_vm._v("提币密码")]),_vm._v(" "),_c('input',{staticClass:"main-input",attrs:{"type":"password","maxlength":"6","placeholder":"6位字母或数字"}})]),_vm._v(" "),_c('div',{staticClass:"mt40"},[_c('span',{staticClass:"fColor2 left"},[_vm._v("确认密码")]),_vm._v(" "),_c('input',{staticClass:"main-input",attrs:{"type":"password","maxlength":"6","placeholder":"请再次输入密码"}})]),_vm._v(" "),_c('div',{staticClass:"mt60"},[_c('span',{staticClass:"fColor2 left"},[_vm._v(" ")]),_vm._v(" "),_c('div',{staticClass:"baseBtn ml20 mouseDefault"},[_vm._v("完成")])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-9c0500ca","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/setCash.vue
+// module id = null
+// module chunks = 

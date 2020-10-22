@@ -1,0 +1,8 @@
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAASFBMVEUAAABWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/T////Y5/3s9P76/P+Ds/fo8f6nyfnh7P1wp/bR4/yew/lpht/lAAAADHRSTlMAIKdO8alXdR6+WeK/6R0qAAAAnklEQVQoz3WS3Q7DIAiF7WZL3ah1s9ve/00HaCVN4FwY4Ys/OYfQtUKKiM8Ek5SjPePQvGr/jhc9zj5QUcsmKj8qoPUXJBXq1brTytUi96OAd5cA5HdussvYtbcf8AED8BGwAYRkgxSiDWJAG6AL3Kvcx/3vTjagWFoUx6urWzJM3Ej5y+tpotq+fRir7RrUkTkUDcqN1h8GHZ+o4/MHgq8WkW9sheQAAAAASUVORK5CYII="
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/assets/images/icon_certified2_s.png
+// module id = 1VvR
+// module chunks = 16

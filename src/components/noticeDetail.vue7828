@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"noticeDetail"},[_c('indexHeader'),_vm._v(" "),_c('div',{staticClass:"account-wrap"},[_c('div',{staticClass:"account"},[_c('div',[_c('div',{staticClass:"back-nav fColor1 ft20"},[_c('p',{staticClass:"fr fColor2 curPer",on:{"click":_vm.goBefore}},[_vm._v("<< "),_c('span',[_vm._v(_vm._s(_vm.$t('news.back')))])]),_vm._v(" "),_c('span',{staticClass:"fl fColor2 curPer"},[_vm._v(_vm._s(_vm.title))])]),_vm._v(" "),_c('div',{staticClass:"nav-after"})]),_vm._v(" "),_c('div',{staticClass:"account-content"},[_c('div',{staticClass:"detailBig"},[_c('div',{staticClass:"detailContent fColor2"},[_c('p',{ref:"con",domProps:{"innerHTML":_vm._s(_vm.content)}})]),_vm._v(" "),_c('div',{staticClass:"fColor2 mt40"},[_c('p',{staticClass:"tr"},[_vm._v(_vm._s(_vm.abstract))]),_vm._v(" "),_c('p',{staticClass:"tr mt5"},[_vm._v(_vm._s(_vm.update_time))])])])])])])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-49fefda0","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/noticeDetail.vue
+// module id = null
+// module chunks = 

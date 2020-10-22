@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"k-line-area bg-1d1d29"},[_c('div',{staticClass:"top bg-part bdb"},[_c('div',{staticClass:"fColor1"},[_vm._v(_vm._s(_vm.symbol))]),_vm._v(" "),_c('p',[(_vm.change>=0)?_c('span',{staticClass:"green ft14"},[_vm._v(_vm._s(_vm._f("toFixed6")(_vm.data.close || '0.0000')))]):_c('span',{staticClass:"red ft14"},[_vm._v(_vm._s(_vm._f("toFixed6")(_vm.data.close || '0.0000')))]),_vm._v(" "),_c('span',{staticClass:"top-b"},[_vm._v("≈ "+_vm._s(_vm.Total)+" CNY")])]),_vm._v(" "),_c('p',[_c('span',{staticClass:"top-t"},[_vm._v(_vm._s(_vm.$t('market.change')))]),_vm._v(" "),(_vm.change>=0)?_c('span',{staticClass:"green"},[_vm._v("+"+_vm._s(_vm._f("toFixeds")(_vm.change || '0.00'))+"%")]):_c('span',{staticClass:"red"},[_vm._v(_vm._s(_vm._f("toFixeds")(_vm.change || '0.00'))+"%")])]),_vm._v(" "),_c('p',[_c('span',{staticClass:"top-t"},[_vm._v(_vm._s(_vm.$t('market.highprice')))]),_vm._v(" "),_c('span',{staticClass:"top-b"},[_vm._v(_vm._s(_vm._f("toFixed4")(_vm.High || '0.0000')))])]),_vm._v(" "),_c('p',[_c('span',{staticClass:"top-t"},[_vm._v(_vm._s(_vm.$t('market.lowprice')))]),_vm._v(" "),_c('span',{staticClass:"top-b"},[_vm._v(_vm._s(_vm._f("toFixed4")(_vm.Low || '0.0000')))])]),_vm._v(" "),_c('p',[_c('span',{staticClass:"top-t"},[_vm._v(_vm._s(_vm.$t('market.vol')))]),_vm._v(" "),_c('span',{staticClass:"top-b"},[_vm._v(_vm._s(_vm._f("toFixed4")(_vm.Volume || '0.0000'))+" "+_vm._s(_vm.data.currency_name))])])]),_vm._v(" "),_c('div',{staticStyle:{"width":"100%","height":"535px"},attrs:{"id":"tv_chart_container"}})])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-e80895cc","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/dealTv.vue
+// module id = null
+// module chunks = 

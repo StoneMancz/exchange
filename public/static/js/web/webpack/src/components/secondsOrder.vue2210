@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:[_vm.loctheme=='white'?'home whitebg':'home']},[_c('div',{staticClass:"content flex between"},[_c('div',{staticClass:"main-top"},[_c('div',{staticClass:"tv-box"},[(this.quotationList.length > 0)?_c('tv',{attrs:{"quotationList":_vm.quotationList,"symbol":_vm.symbol,"types":_vm.types}}):_vm._e()],1),_vm._v(" "),_c('div',{staticClass:"Kline"},[_c('kline',{attrs:{"symbol":_vm.symbol}})],1),_vm._v(" "),_c('div',{staticClass:"flex"},[_c('div',{staticClass:"tran-box bg-part"},[_c('leverTransaction',{attrs:{"leverTradeId":_vm.leverTradeId}})],1)])]),_vm._v(" "),_c('div',{staticClass:"main-bottom"},[_c('div',{staticClass:"trade-box"},[_c('trade',{attrs:{"leverTradeId":_vm.leverTradeId,"skinstyle":_vm.loctheme,"currencyName":_vm.currencyName}})],1)])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-059a8c11","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/secondsOrder.vue
+// module id = null
+// module chunks = 

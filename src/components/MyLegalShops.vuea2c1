@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"whites",attrs:{"id":"myshops"}},[_c('div',{staticClass:"title bgf8"},[_vm._v(_vm._s(_vm.$t('fat.myshops')))]),_vm._v(" "),_c('div',{staticClass:"list-box bgf8"},[_c('div',{staticClass:"list-header flex"},[_c('div',[_vm._v(_vm._s(_vm.$t('fat.name')))]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.$t('fat.fiatSub')))]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.$t('fat.register_time')))]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.$t('fat.shoper_balance')))]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.$t('asset.frezz')))]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.$t('td.do')))])]),_vm._v(" "),_c('ul',{staticClass:"list"},_vm._l((_vm.list),function(item,index){return _c('li',{key:index,staticClass:"flex bdb"},[_c('div',{staticClass:"flex"},[_c('span',{staticClass:"icon"},[_vm._v(_vm._s(_vm._f("strFirst")(item.name || '')))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(item.name))])]),_vm._v(" "),_c('div',[_vm._v(_vm._s(item.currency_name))]),_vm._v(" "),_c('div',[_vm._v(_vm._s(item.create_time))]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm._f("toFixeds")(item.legal_balance || '0.000')))]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm._f("toFixeds")(item.lock_seller_balance || '0.000')))]),_vm._v(" "),_c('div',[_c('router-link',{attrs:{"to":{path:'/legalShopDetail',query:{id:item.id}}}},[_vm._v(_vm._s(_vm.$t('fat.enterShop')))])],1)])}))])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-6a793b24","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/MyLegalShops.vue
+// module id = null
+// module chunks = 

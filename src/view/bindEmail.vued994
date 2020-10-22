@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"bind-email"}},[_c('div',{staticClass:"contentBK"},[_c('div',{staticClass:"content-wrap"},[_c('div',{staticClass:"account"},[_c('div',{staticClass:"main"},[_c('p',{staticClass:"main_title"},[_vm._v("绑定邮箱")]),_vm._v(" "),_c('div',{staticClass:"register-input"},[_c('span',{staticClass:"register-item"},[_vm._v("邮箱")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.account_number),expression:"account_number"}],staticClass:"input-main input-content",attrs:{"type":"text","maxlength":"20","id":"account"},domProps:{"value":(_vm.account_number)},on:{"input":function($event){if($event.target.composing){ return; }_vm.account_number=$event.target.value}}})]),_vm._v(" "),_c('div',{staticClass:"register-input code-input"},[_c('span',{staticClass:"register-item"},[_vm._v("验证码")]),_vm._v(" "),_c('div',{staticClass:"code-box"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.phoneCode),expression:"phoneCode"}],staticClass:"input-main input-content",attrs:{"type":"text","maxlength":"16","id":"pwd"},domProps:{"value":(_vm.phoneCode)},on:{"input":function($event){if($event.target.composing){ return; }_vm.phoneCode=$event.target.value}}}),_vm._v(" "),_c('button',{attrs:{"type":"button"},on:{"click":_vm.setTime}},[_vm._v("获取验证码")])])]),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"10px"}},[_c('span',{staticClass:"register-item"}),_vm._v(" "),_c('button',{staticClass:"register-button curPer",attrs:{"type":"button"},on:{"click":_vm.check}},[_vm._v("确认绑定")])])])])])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-594007e6","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/bindEmail.vue
+// module id = null
+// module chunks = 

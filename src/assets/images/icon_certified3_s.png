@@ -1,0 +1,8 @@
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAYFBMVEUAAABWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/T////9/v92q/aEtPexz/pqpPXu9f73+//O4fz1+f6OuvhloPW71fuZwPicwvmmyPnZ6P3j7f3iVN0OAAAADXRSTlMAcE5a8alXHr534lmmr56IJgAAAMpJREFUKM+FklkWgjAMRasyqkknoJRx/7uUkIJV5Hg/32vGRgTyskgA7kWZi5g8hZ00sq7wwWPTL/DFhfUMDmRrfvgB1XkCgMEIQx1wQGNNpNtmDSkBACs1SJZlrypcpFIUZKDTuia91tohGYVIyAgvl8he4mokAthA5+08W++QDdgMqYfO+2bQMhhbqraVOE0o2zakCsVHVSNy9ZGLc7udchhwquN2aUBjK9yprOGdpDQ6RtDg6fkSz9d+/lHHr739OYb4fJL3+bwAaIEZ6KY4otAAAAAASUVORK5CYII="
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/assets/images/icon_certified3_s.png
+// module id = eNYF
+// module chunks = 16

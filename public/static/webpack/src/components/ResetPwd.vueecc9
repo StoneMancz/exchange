@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"reset-box"},[_c('indexHeader'),_vm._v(" "),_c('div',{staticClass:"contentBK"},[_c('div',{staticClass:"content-wrap"},[_c('div',{staticClass:"account"},[_c('div',{staticClass:"main"},[_c('p',{staticClass:"main_title"},[_vm._v("重置密码")]),_vm._v(" "),_c('div',{staticClass:"register-input"},[_c('span',{staticClass:"register-item"},[_vm._v("请输入密码")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.pwd),expression:"pwd"}],staticClass:"input-main input-content",attrs:{"type":"password","maxlength":"20","id":"pwd"},domProps:{"value":(_vm.pwd)},on:{"input":function($event){if($event.target.composing){ return; }_vm.pwd=$event.target.value}}})]),_vm._v(" "),_c('div',{staticClass:"register-input"},[_c('span',{staticClass:"register-item"},[_vm._v("请再次输入密码")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.repwd),expression:"repwd"}],staticClass:"input-main input-content",attrs:{"type":"password","maxlength":"16","id":"repwd"},domProps:{"value":(_vm.repwd)},on:{"input":function($event){if($event.target.composing){ return; }_vm.repwd=$event.target.value}}})]),_vm._v(" "),_c('div',{staticStyle:{"margin-top":"10px"}},[_c('span',{staticClass:"register-item"}),_vm._v(" "),_c('button',{staticClass:"register-button curPer",on:{"click":_vm.reset}},[_vm._v("确认")])])])])])]),_vm._v(" "),_c('indexFooter')],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-e5b83c30","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/ResetPwd.vue
+// module id = null
+// module chunks = 

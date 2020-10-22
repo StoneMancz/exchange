@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"account-main accountMessage"},[_c('div',{staticClass:"account-title"},[_c('span',{staticClass:"checkAll curPer"},[_c('input',{staticClass:"curPer",attrs:{"type":"checkbox"}})]),_vm._v(" "),_c('span',{staticClass:"ml10 curPer"},[_vm._v("全选")]),_vm._v(" "),_c('span',{staticClass:"baseColor fr curPer"},[_vm._v("清空消息")])]),_vm._v(" "),_c('ul',{staticClass:"fColor1 hide"},[_c('li',{staticClass:"clear"},[_c('div',{staticClass:"fl curPer"},[_c('input',{staticClass:"checkbox",attrs:{"type":"checkbox"}})]),_vm._v(" "),_c('div',{staticClass:"ml25"},[_c('span',[_vm._v("注册成功")]),_vm._v(" "),_c('span',{staticClass:"fColor2 fr ft4"},[_vm._v("2018-08-03 11:10:21")]),_vm._v(" "),_c('p',{staticClass:"mt15 ft14 fColor2"},[_vm._v("恭喜您，注册成功！成为【INVESTDIGITAL LIMITED】一名用户。")])])])]),_vm._v(" "),_c('div',{staticClass:"no_data tc"},[_c('img',{attrs:{"src":require("@/assets/images/nodata.png"),"alt":""}}),_vm._v(" "),_c('p',{staticClass:"fColor2 ft18"},[_vm._v("暂无消息")])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-79b3dc10","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/accountMessage.vue
+// module id = null
+// module chunks = 
