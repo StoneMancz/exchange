@@ -1,0 +1,162 @@
+body {
+  background: #e5ebf5 !important;
+}
+html {
+  background: #e5ebf5 !important;
+  color: #1c242c;
+}
+#app {
+  color: #1c242c;
+}
+#app .bg-part {
+	color:#333;
+  background: #fff !important;
+}
+#app .scroll::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgba(127, 143, 164, 0.4);
+}
+#app .scroll::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #cad7e0;
+}
+#app .title_box {
+  background: #f2f6fa;
+}
+#app .whites {
+  color: #1c242c;
+}
+#app .fColor1 {
+  color: #596a7a;
+}
+#app .input_color {
+  color: #1c242c;
+}
+#app .btnColor1 {
+  color: #ffffff;
+}
+#app .fColor2 {
+  color: #637085;
+}
+#app .fColor3 {
+  color: #61688a;
+}
+#app .fColor4 {
+  color: #4e546f;
+}
+#app .fColorn {
+  color: #2b3d4a;
+}
+#app .topColor {
+  color: #87a2cd;
+}
+#app .baseColor {
+  color: #7a98f7;
+}
+#app .ceilColor {
+  color: #009688;
+}
+#app .redColor {
+  color: #cc4951;
+}
+#app .gray {
+  color: #d3dfe6;
+}
+#app .blue {
+  color: #357ce1;
+}
+#app .curPer {
+  cursor: pointer;
+}
+#app .pointer {
+  cursor: pointer;
+}
+#app .contentBK {
+  background-color: #ffffff;
+}
+#app .topshadow {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+#app .ttBk {
+  background-color: #1b1e2e;
+}
+#app .active {
+  color: #7a98f7;
+  border-bottom: 1px solid #7a98f7;
+}
+#app .radius4 {
+  border-radius: 4px;
+}
+#app .bdb {
+  border-bottom: 1px solid #cdd9e2;
+}
+#app .bdl {
+  border-left: 1px solid #cdd9e2;
+}
+#app .bd {
+  border: 1px solid #cad7e0;
+}
+#app .baseBtn {
+  background-color: #5697f4;
+  color: #ffffff;
+  border-radius: 4px;
+}
+#app .el-slider__runway {
+  background-color: #e5ebf5;
+}
+#app .active_p {
+  background-color: rgba(229, 235, 245, 0.5);
+}
+#app .coin-wrap li p:hover {
+  background-color: rgba(229, 235, 245, 0.5);
+}
+#app .list-item li:hover {
+  background-color: rgba(229, 235, 245, 0.5);
+}
+#app .leftNav ul .active {
+  background-color: transparent;
+  border-bottom: none;
+}
+#app input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+#app #transfer-legal > .coins li {
+  background: #ebeef5;
+}
+#app .box-account {
+  background: transparent;
+}
+#app .account-main {
+  background: #ffffff;
+}
+#app .account-main ul {
+  border-top: 1px solid #cdd9e2;
+}
+#app .account-main ul li {
+  border-bottom: 1px solid #cdd9e2;
+}
+#app .log_ul > li:first-child:hover {
+  background: #ffffff;
+}
+#app .log_ul li:hover {
+  background: rgba(229, 235, 245, 0.5);
+}
+#app .back-nav,
+#app .account-content,
+#app .indexBlackes {
+  background: #fff;
+}
+#app #legaltrade-box > .list-box > .list > li,
+#app #legaltrade-box > .list-box > .list-title {
+  border-bottom: 1px solid #cdd9e2;
+}
+#app .content-wrap {
+  background: #fff;
+}
+#app .bdr {
+  border-right: 1px solid #ddd;
+}
+#app .bgtrans {
+  background-color: #fff !important;
+}

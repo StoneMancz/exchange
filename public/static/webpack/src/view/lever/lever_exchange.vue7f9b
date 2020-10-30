@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"exchange"},[_c('div',{staticClass:"content fColor1"},[_c('div',{staticClass:"new_price bdb"},[_c('span',{staticClass:"ft14"},[_vm._v(_vm._s(_vm.$t('market.newprice'))+" "+_vm._s(_vm._f("tofixedFour")(_vm.newData)))])]),_vm._v(" "),_c('div',{staticClass:"exchange_title ft12 clear tc"},[_c('span',[_vm._v(_vm._s(_vm.$t('cuy.direction')))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm.$t('cuy.price')))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm.$t('td.num')))])]),_vm._v(" "),_c('ul',{staticClass:"list-item ft12 tc"},[_vm._l((_vm.outlist),function(out,index){return (index<8)?_c('li',{key:out.id,staticClass:"curPer",on:{"click":function($event){_vm.price(out[0])}}},[_c('span',{directives:[{name:"show",rawName:"v-show",value:(_vm.outlist.length<8),expression:"outlist.length<8"}],staticClass:"red"},[_vm._v(_vm._s(_vm.$t('cuy.sell'))+" "+_vm._s(_vm.outlist.length-index))]),_vm._v(" "),_c('span',{directives:[{name:"show",rawName:"v-show",value:(_vm.outlist.length>=8),expression:"outlist.length>=8"}],staticClass:"red"},[_vm._v(_vm._s(_vm.$t('cuy.sell'))+" "+_vm._s(8-index))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm._f("tofixedFour")(out[0])))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm._f("tofixed")(out[1])))])]):_vm._e()}),_vm._v(" "),_c('div',{staticClass:"line bdb"}),_vm._v(" "),_vm._l((_vm.inlist),function(buy,index){return (index<8)?_c('li',{key:index,staticClass:"curPer",on:{"click":function($event){_vm.price(buy[0])}}},[_c('span',{staticClass:"green"},[_vm._v(_vm._s(_vm.$t('cuy.buy'))+" "+_vm._s(index+1))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm._f("tofixedFour")(buy[0])))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm._f("tofixed")(buy[1])))])]):_vm._e()})],2)])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-46731e80","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/lever/lever_exchange.vue
+// module id = null
+// module chunks = 

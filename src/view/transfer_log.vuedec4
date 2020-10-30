@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"account-main wrap"},[_c('ul',{staticClass:"whites log_ul"},[_c('li',{staticClass:"flex ft14"},[_c('span',{staticClass:"flex1 tc"},[_vm._v(_vm._s(_vm.$t('td.time')))]),_vm._v(" "),_c('span',{staticClass:"flex1 tc"},[_vm._v(_vm._s(_vm.$t('set.detail')))]),_vm._v(" "),_c('span',{staticClass:"flex1 tc"},[_vm._v(_vm._s(_vm.$t('set.val')))])]),_vm._v(" "),_c('div',{staticClass:"li_wrap scroll"},[_vm._l((_vm.log_list),function(item,index){return _c('li',{key:index,staticClass:"flex ft12 around"},[_c('span',{staticClass:"flex1 tc"},[_vm._v(_vm._s(item.created_time))]),_vm._v(" "),_c('span',{staticClass:"flex1 tc"},[_vm._v(_vm._s(item.info))]),_vm._v(" "),_c('span',{staticClass:"flex1 tc"},[_vm._v(_vm._s(_vm._f("toFixeds")(item.value))+" "+_vm._s(item.currency_name))])])}),_vm._v(" "),_c('p',{staticClass:"tc more",on:{"click":_vm.getMore}},[_vm._v(_vm._s(_vm.more))])],2)])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-683354a6","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/transfer_log.vue
+// module id = null
+// module chunks = 

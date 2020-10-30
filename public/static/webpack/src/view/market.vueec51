@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"market"},[_c('div',{staticClass:"m_filter"},[_c('div',{staticClass:"tabtitle fColor1 ft14 curPer flex"},_vm._l((_vm.tabList),function(tab,index){return _c('span',{key:index,class:index==_vm.index1?'active':'',on:{"click":function($event){_vm.changeType(index,tab.name,tab.id)}}},[_vm._v(_vm._s(tab.name))])}))]),_vm._v(" "),_c('div',{staticClass:"coin-title clear"},[_c('div',[_c('span',[_vm._v(_vm._s(_vm.$t('td.currency')))])]),_vm._v(" "),_c('div',[_c('span',[_vm._v(_vm._s(_vm.$t('market.newprice')))])]),_vm._v(" "),_c('div',[_c('span',[_vm._v(_vm._s(_vm.$t('market.change')))])])]),_vm._v(" "),_c('div',{staticClass:"line bdb"}),_vm._v(" "),_c('ul',{staticClass:"coin-wrap scroll fColor1"},_vm._l((_vm.marketList),function(item,index){return (item.is_display == 1 && item.open_lever==1)?_c('li',{staticClass:"currency_p",class:index==_vm.index2?'active_p':'',on:{"click":function($event){_vm.quota_shift(index,item.legal_id,item.legal_name,item.currency_name,item.currency_id,item.change,item.lever_share_num)}}},[_c('p',[_c('span',[_vm._v(_vm._s(item.currency_name))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(item.now_price))]),_vm._v(" "),(item.change>=0)?_c('span',{staticClass:"green"},[_vm._v("+"+_vm._s((item.change-0).toFixed(2))+"%")]):_c('span',{staticClass:"red"},[_vm._v(_vm._s((item.change-0).toFixed(2))+"%")])])]):_vm._e()}))])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-4cc12d72","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/market.vue
+// module id = null
+// module chunks = 

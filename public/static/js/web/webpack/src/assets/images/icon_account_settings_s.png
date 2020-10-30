@@ -1,0 +1,8 @@
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAASFBMVEUAAABWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/RWl/SgjM4/AAAAF3RSTlMA7DqTf0Kqnk7eGhMMZ1fVLorlefoE1xriMXsAAACTSURBVBjTdY9JEoQgDEW/IoRJBru7cv+bdpFo4ULfggz8TFBiHG/OmERi3oHC3BNOPA9CEGOhbHxjn8rJ+q78FQkOYxZx/JQZS7SS+hv0O1jpd2gAFjqJ3Gh0JqlLnTuTVW0LzLWpX2HpK8OtXb30X2ismgLfqBlCuSf905n+6cwPlOTGxmUfcyjhormegehcwyt/boEUuSs+p40AAAAASUVORK5CYII="
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/assets/images/icon_account_settings_s.png
+// module id = tHII
+// module chunks = 16

@@ -1,0 +1,8 @@
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAATlBMVEX///////////////////////////////8AAAD///////////////////////////////////////////////////////////////////9gZZ+ZAAAAGnRSTlNmc+aILwxh7ABlSlpCp9yWDSPEtX0fJHyAzD7oxIIAAADLSURBVCjPhZLbDoQgDEQpt4oKqLir/v+PbklrIDFm50UzB5hSqgaWs+Pk/TTaRQwGbg5KFGbXwMerTv57A8vLmyyDVT20VuD8E3hHYKafiJ0iGfOgHAVs0JEIG9XmlCWOac8oynvCmq/GClAboxHlS4DsqQJSPhPyzgrI9gI0QEoAWkC4gTa5AJRstID7qGwQrwvRZDlKwuNJKzk9cjiXWw7yhRyFy10CXRxSu2CCSBELt2TDThu35LWJ721/f6jn0/4ZhjY+IXTj8wMINAwO0TnmggAAAABJRU5ErkJggg=="
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/assets/images/icon_certified3.png
+// module id = XMTj
+// module chunks = 16

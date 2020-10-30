@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"account-main wrap fColor1"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"main-content mt20"},[_c('div',{staticClass:"mauto",staticStyle:{"width":"80%"}},[_c('div',{staticClass:"flex alcenter exbox"},[_c('div',[_c('el-select',{attrs:{"placeholder":_vm.$t("fat.pselect")},on:{"change":_vm.currency_click},model:{value:(_vm.currency_name),callback:function ($$v) {_vm.currency_name=$$v},expression:"currency_name"}},_vm._l((_vm.currency_list),function(item){return _c('el-option',{key:item.id,attrs:{"value":item}},[_vm._v(_vm._s(item.currency_name)+"\n                        ")])}))],1),_vm._v(" "),_c('div',[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.number),expression:"number"}],staticClass:"number-input",attrs:{"type":"number","name":"","id":"","placeholder":"兑换数量"},domProps:{"value":(_vm.number)},on:{"input":function($event){if($event.target.composing){ return; }_vm.number=$event.target.value}}})]),_vm._v(" "),_c('div',{staticClass:"tc btn-btn white bgBlue radius4 pointer",on:{"click":_vm.submit}},[_vm._v("兑换")])]),_vm._v(" "),_c('div',{staticClass:"mt10 ft14"},[_vm._v("兑换比例：1"+_vm._s(_vm.currency_name)+" 兑换 "+_vm._s(_vm.rate)+"USDT")])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"title flex"},[_c('span',[_vm._v("币币兑换")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-9c9a4528","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/coinExchange.vue
+// module id = null
+// module chunks = 

@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"lever-record"}},[_c('div',{staticClass:"title"},[_c('span',{staticClass:"fl"},[_vm._v(_vm._s(_vm.$t('asset.moneyRecord')))]),_vm._v(" "),_c('span',{staticClass:"fr",on:{"click":function($event){_vm.$router.go(-1)}}},[_vm._v(_vm._s(_vm.$t('news.back')))])]),_vm._v(" "),_c('div',{staticClass:"list"},[_c('div',{staticClass:"list-title flex"},[_c('span',[_vm._v(_vm._s(_vm.$t('fat.type')))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm.$t('td.num')))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm.$t('td.time')))])]),_vm._v(" "),_c('ul',_vm._l((_vm.log),function(item,index){return _c('li',{key:index},[_c('span',[_vm._v(_vm._s(item.info))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm._f("toFixeds")(item.value || '0.00')))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(item.created_time))])])}))])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-0cbc298d","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/lever/transferRecord.vue
+// module id = null
+// module chunks = 

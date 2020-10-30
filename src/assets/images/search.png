@@ -1,0 +1,8 @@
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAATlBMVEUAAABSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIxSaIznjfSbAAAAGXRSTlMAvjB7J2jobwbH+VYNhpROZBqttN3yRHaDqFJn/AAAAHhJREFUGNNljVsSwyAIRbVBEWPMOy3732jFwvjR8+H1HobBNaBGZtqSU7CVZ13yBdbnnuW8d0mQ3kl0SFRyxotlKQat9udnCL+IWIegSZ5mldSHeBcTIRfR8Uh2JPwyE8hgYxVu93ydnhknRl0GrJ+57ZsZvP9N/ALRoAUYtthxjQAAAABJRU5ErkJggg=="
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/assets/images/search.png
+// module id = NzrC
+// module chunks = 16

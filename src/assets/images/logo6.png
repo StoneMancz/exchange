@@ -1,0 +1,8 @@
+module.exports = __webpack_public_path__ + "static/img/logo6.080fe7c.png";
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/assets/images/logo6.png
+// module id = E2K3
+// module chunks = 16

@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"currency"},[_c('div',{staticClass:"title fColor1"},[_vm._v("币种资料")]),_vm._v(" "),_c('div',{staticClass:"content f14 fColor1"},[_c('p',{staticClass:"ft24"},[_vm._v(_vm._s(_vm.coin.name))]),_vm._v(" "),_c('p',{staticClass:"fColor2 abstract ft14"},[_vm._v("简介")]),_vm._v(" "),_c('p',{staticClass:"mt15 ft14"},[_vm._v("\n            "+_vm._s(_vm.coin.desc)+"\n        ")])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7c6e231e","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/currency.vue
+// module id = null
+// module chunks = 

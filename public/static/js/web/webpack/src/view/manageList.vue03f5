@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"main-wraps"},[_c('div',{staticClass:"bg-part wrap-wraps"},[_c('p',{staticClass:"flex tc ptb10 bdb ft14"},[_c('span',{staticClass:"flex1"},[_vm._v(_vm._s(_vm.$t('td.num')))]),_vm._v(" "),_c('span',{staticClass:"flex1"},[_vm._v(_vm._s(_vm.$t('coin.profit')))]),_vm._v(" "),_c('span',{staticClass:"flex1"},[_vm._v(_vm._s(_vm.$t('coin.cuntime')))]),_vm._v(" "),_c('span',{staticClass:"flex1"},[_vm._v(_vm._s(_vm.$t('coin.endtine')))]),_vm._v(" "),_c('span',{staticClass:"flex1"},[_vm._v(_vm._s(_vm.$t('fat.status')))])]),_vm._v(" "),_c('ul',_vm._l((_vm.log_list),function(item){return _c('li',{staticClass:"flex tc ptb10 bdb"},[_c('span',{staticClass:"flex1"},[_vm._v(_vm._s(item.balance))]),_vm._v(" "),_c('span',{staticClass:"flex1"},[_vm._v(_vm._s(item.profit_balance))]),_vm._v(" "),_c('span',{staticClass:"flex1"},[_vm._v(_vm._s(item.created_at))]),_vm._v(" "),_c('span',{staticClass:"flex1"},[_vm._v(_vm._s(item.end_time))]),_vm._v(" "),_c('span',{class:['flex1',{'redColor':item.status==1}]},[_vm._v(_vm._s(item.status_name))])])})),_vm._v(" "),_c('p',{staticClass:"tc more ptb10 ft12",on:{"click":_vm.getMore}},[_vm._v(_vm._s(_vm.more))])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-1c3ea5b3","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/manageList.vue
+// module id = null
+// module chunks = 

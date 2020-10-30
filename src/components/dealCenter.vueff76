@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home flex"},[_c('div',{staticClass:"home-l"},[_c('div',{staticClass:"home-l-t"},[_c('div',{staticClass:"left-box bg-part"},[_c('market')],1),_vm._v(" "),_c('div',{staticClass:"tv-box bg-part"},[_c('deal-tv')],1)]),_vm._v(" "),_c('div',{staticClass:"entrusts bg-part"},[_c('div',{staticClass:"tab-entrust whites"},[_c('span',{class:['curPer',{active:_vm.whichEntrust == 'entrust'}],on:{"click":function($event){_vm.whichEntrust = 'entrust'}}},[_vm._v(_vm._s(_vm.$t('lever.nowentrust')))]),_vm._v(" "),_c('span',{class:['curPer',{active:_vm.whichEntrust == 'hisentrust'}],on:{"click":function($event){_vm.whichEntrust = 'hisentrust'}}},[_vm._v(_vm._s(_vm.$t('lever.hisentrust')))])]),_vm._v(" "),_c('div',{staticClass:"scroll"},[(_vm.whichEntrust == 'entrust')?_c('div',{staticClass:"entrust-box"},[_c('entrust')],1):_vm._e(),_vm._v(" "),(_vm.whichEntrust == 'hisentrust')?_c('div',{staticClass:"histentrust-box"},[_c('hisentrust')],1):_vm._e()])])]),_vm._v(" "),_c('div',{staticClass:"home-r"},[_c('div',{staticClass:"home-r-t flex"},[_c('div',{staticClass:"exchage-box bg-part"},[_c('exchange')],1),_vm._v(" "),_c('div',{staticClass:"complete-box bg-part"},[_c('complete')],1)]),_vm._v(" "),_c('div',{staticClass:"home-r-b bg-part"},[_c('trade')],1)])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-b8b017c6","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/dealCenter.vue
+// module id = null
+// module chunks = 

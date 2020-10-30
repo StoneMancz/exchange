@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"deal",staticStyle:{"min-width":"600px","background":"#1a243b"}},[_c('div',{staticClass:"title fColor1"},[_vm._v("实时成交")]),_vm._v(" "),_c('div',{staticClass:"container fColor1 ft12 scroll"},[_vm._m(0),_vm._v(" "),_c('ul',{staticClass:"list-item"},_vm._l((_vm.tradeList),function(trade,index){return _c('li',{staticClass:"tc"},[_c('span',[_vm._v(_vm._s(_vm._f("filterTime")(trade.create_time)))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(trade.price))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(trade.number))])])}))])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"deal-title clear tc"},[_c('span',[_vm._v("时间")]),_vm._v(" "),_c('span',[_vm._v("价格(CNY)")]),_vm._v(" "),_c('span',[_vm._v("数量(JNB)")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-4a47776c","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/deal.vue
+// module id = null
+// module chunks = 

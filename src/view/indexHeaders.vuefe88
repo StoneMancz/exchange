@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['nav_bar',{'nav_bars':_vm.homeindex}]},[_c('div',{staticClass:"content clear"},[_c('div',{staticClass:"fl white"},[_c('span',[_vm._v(_vm._s(_vm.$t('jc.title')))])]),_vm._v(" "),_c('div',{staticClass:"fr"},[_c('div',{staticClass:"account-box fl positionR curPer flex"},[_c('div',{staticClass:"positionR ft12 languagetxt",on:{"mouseover":_vm.lgover,"mouseout":_vm.lgout}},[_c('i',{staticClass:"iconfont icon-yuyan topColor hov ft14"}),_vm._v(" "),_c('span',{staticClass:"topColor hov"},[_vm._v(_vm._s(_vm.$t('language')))]),_vm._v(" "),(!_vm.show4)?_c('i',{staticClass:"iconfont icon-xiala topColor hov ft12"}):_c('i',{staticClass:"iconfont icon-shangla_icon topColor hov ft12"}),_vm._v(" "),(_vm.show4)?_c('div',{staticClass:"language fColorn"},[_c('p',{staticClass:"plr10 flex alcenter",on:{"click":function($event){_vm.setLang('zh')}}},[_c('img',{attrs:{"src":require("@/assets/images/cn.png"),"alt":""}}),_vm._v(" "),_c('span',[_vm._v("简体中文")])]),_vm._v(" "),_c('p',{staticClass:"plr10 flex alcenter",on:{"click":function($event){_vm.setLang('en')}}},[_c('img',{attrs:{"src":require("@/assets/images/en.png"),"alt":""}}),_vm._v(" "),_c('span',[_vm._v("English")])]),_vm._v(" "),_c('p',{staticClass:"plr10 flex alcenter",on:{"click":function($event){_vm.setLang('hk')}}},[_c('img',{attrs:{"src":require("@/assets/images/hk.png"),"alt":""}}),_vm._v(" "),_c('span',[_vm._v("繁體中文")])]),_vm._v(" "),_c('p',{staticClass:"plr10 flex alcenter",on:{"click":function($event){_vm.setLang('jp')}}},[_c('img',{staticStyle:{"height":"24px"},attrs:{"src":require("@/assets/images/jp.png"),"alt":""}}),_vm._v(" "),_c('span',[_vm._v("日本語")])])]):_vm._e()])])])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7c421986","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/view/indexHeaders.vue
+// module id = null
+// module chunks = 
