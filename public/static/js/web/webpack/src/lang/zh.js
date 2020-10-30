@@ -57,7 +57,11 @@ export default {
         sweep:'扫码下载',
         android:'Android',
         pinput:'请输入你的邮箱或手机号',
+<<<<<<< HEAD
         atrade:'注册一个STAREX全球站账号 开始交易旅程'
+=======
+        atrade:'注册一个FABCOIN全球站账号 开始交易旅程'
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
     },
     // 底部
     foo:{
@@ -518,7 +522,11 @@ export default {
         account:'账号',
         psw:'密码',
         login:'登录',
+<<<<<<< HEAD
         nouser:'还不是STAREX的用户？',
+=======
+        nouser:'还不是FABCOIN的用户？',
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         goRegister:'立即注册，在全球领先的数字资产交易平台开始交易。',
         registerFree:'免费注册',
         psw6:'密码不能小于六位'
@@ -538,7 +546,11 @@ export default {
         xieyi:'《用户协议》',
         tips01:'国籍信息注册后不可修改，请务必如实选择。',
         tips02:'验证邮件可能会被误判为垃圾邮件，请注意查收。',
+<<<<<<< HEAD
         tips03:'请妥善保存您的STAREX账号及登录密码。',
+=======
+        tips03:'请妥善保存您的FABCOIN账号及登录密码。',
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         tips04:'请勿和其他网站使用相同的登录密码。',
         emailFalse:'您输入的邮箱不符合规则'
     },
@@ -616,9 +628,15 @@ export default {
         foundedOn: "创建于",
         commonProblem: "常见问题",
         statement: "解释说明",
+<<<<<<< HEAD
         about: "关于STAREX",
         everyone: "人人都是CEO",
         program: "STAREX全球合伙人计划",
+=======
+        about: "关于FABCOIN",
+        everyone: "人人都是CEO",
+        program: "FABCOIN全球合伙人计划",
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         program2: "合伙人计划",
         myMine: "我的矿场：",
         friend: "我的矿友：",

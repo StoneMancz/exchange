@@ -196,6 +196,13 @@
 								</a>
 							</div>
 						</div>
+<<<<<<< HEAD
+=======
+						<!-- <div class="footer_mr">
+							<h4>02-25700271</h4>
+							<h6>fabcoinservice@gmail.com</h6>
+						</div> -->
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
 					</div>
 					<div class="footer_b">
 						<div class="footer_bl">
@@ -204,7 +211,11 @@
 							</span>
 						</div>
 						<div class="footer_br">
+<<<<<<< HEAD
 							©Copyright 2019 STAREX. All rights reserved.
+=======
+							©Copyright 2019 FABCOIN. All rights reserved.
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
 						</div>
 					</div>
 				</div>

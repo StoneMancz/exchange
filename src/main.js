@@ -43,8 +43,13 @@ Vue.prototype.$ajax= Axios
 var url;
 var urls = "";
 if(process.env.NODE_ENV=='development'){
+<<<<<<< HEAD
 	url="3.1.107.1";
 	urls = 'http://3.1.107.1'
+=======
+	url="161.117.251.19";
+	urls = 'http://161.117.251.19'
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
 }else{
 	url=location.host;
 	var _PROTOCOL = window.location.protocol;
@@ -80,12 +85,20 @@ if(localStorage.getItem('socketPort')){
 
 Vue.use(new VueSocketio({
 	debug: true,
+<<<<<<< HEAD
     connection:"http://3.1.107.1:2000",
+=======
+    connection:"http://161.117.251.19:2000",
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
 }))
 
 Vue.config.productionTip = false
 
+<<<<<<< HEAD
 Axios.defaults.baseURL = 'http://3.1.107.1/';
+=======
+Axios.defaults.baseURL = 'http://161.117.251.19/';
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
 Axios.interceptors.request.use(function (config) {
 	if (config.url.indexOf('?') === -1) {
 		config.url = config.url + '?_timespan=' + (new Date()).getTime()

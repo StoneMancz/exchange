@@ -71,6 +71,10 @@ export default {
     }
   },
   methods: {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
     getList(more = false) {
       var pms = {};
       if (!more) {
@@ -82,7 +86,11 @@ export default {
       this.$ajax({
         url: "/api/seller/balance_log",
         params: pms,
+<<<<<<< HEAD
         headers: {Authorization: this.token}
+=======
+        headers: { Authorization: this.token }
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
       }).then(res => {
         layer.close(i);
         if (res.data.type == "ok") {
@@ -159,4 +167,13 @@ export default {
 .log_wrap{
   overflow: auto;
 }
+<<<<<<< HEAD
 </style>
+=======
+</style>
+
+
+
+// WEBPACK FOOTER //
+// src/components/balancelog.vue
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26

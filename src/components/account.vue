@@ -39,4 +39,16 @@
         margin: 0px auto;
         overflow: hidden;
     }
+<<<<<<< HEAD
 </style>
+=======
+   
+</style>
+
+
+
+
+
+// WEBPACK FOOTER //
+// src/components/account.vue
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26

@@ -131,7 +131,11 @@
               <dd class="felx alcenter">
                 <div class="flex alcenter center">
                   <img src="../assets/images/email.png" alt="">
+<<<<<<< HEAD
                   <span class="ml5">2622010581@qq.com</span>
+=======
+                  <span class="ml5">fabcoinservice@gmail.com</span>
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
                 </div>
                 <!-- <ul class="concat_ul flex tc end">
                   <li class="wechat-box">
@@ -170,8 +174,13 @@
             </dl>
           </div>
           <p class="flex column center mt20 tc ft12">
+<<<<<<< HEAD
             <span class="white ft20">STAREX</span>
             ©Copyright  2019 STAREX. All rights reserved.
+=======
+            <span class="white ft20">FABCOIN</span>
+            ©Copyright  2019 FABCOIN. All rights reserved.
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
             </p>
         </footer>
     </div>

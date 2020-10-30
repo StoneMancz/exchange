@@ -57,7 +57,11 @@ export default {
         sweep:'ダウンロード',
         android:'Android',
         pinput:'お手数でございますが、メールアドレスか携帯番号をご入力してください',
+<<<<<<< HEAD
         atrade:'STAREX のアカウントを登録してから、取引を開始致します'
+=======
+        atrade:'FABCOIN のアカウントを登録してから、取引を開始致します'
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
     },
     // 底
     foo:{
@@ -515,7 +519,11 @@ export default {
         account:'アカウント',
         psw:'パスワード',
         login:'登録する',
+<<<<<<< HEAD
         nouser:'まだSTAREXのユーザーではありません？',
+=======
+        nouser:'まだFABCOINのユーザーではありません？',
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         goRegister:'すぐ登録すると、世界でリードしているデジタル資産取引プラットフォームで取引を開始できます。',
         registerFree:'無料登録',
         psw6:'パスワードは6位以下ではいけません'
@@ -535,7 +543,11 @@ export default {
         xieyi:'《ユーザー協議》',
         tips01:'国籍情報登録後は修正不可ですので、必ずきちんと選択して下さい。',
         tips02:'メールの検証が迷惑メールになる可能性がありますので、取り扱いにご注意下さい。',
+<<<<<<< HEAD
         tips03:'STAREXのアカウントとログインパスワードをきちんと保管してください。',
+=======
+        tips03:'FABCOINのアカウントとログインパスワードをきちんと保管してください。',
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         tips04:'他のサイトと同じログインパスワードをご使用しないでください。',
         emailFalse:'入力されたメールアドレスは不規則でございます'
     },
@@ -610,9 +622,15 @@ export default {
         foundedOn:'作成',
         commonProblem:'よくある問題',
         statement:'説明',
+<<<<<<< HEAD
         about:'STAREXについて',
         everyone:'誰でもCEO',
         program:'STAREXグローバルパートナー計画',
+=======
+        about:'FABCOINについて',
+        everyone:'誰でもCEO',
+        program:'FABCOINグローバルパートナー計画',
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         program2:'パートナー計画',
         myMine:'私の鉱場：',
         friend:'私の鉱山仲間',

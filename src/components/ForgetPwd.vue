@@ -20,7 +20,13 @@
                     <div style="margin-top: 10px;">
                         <span class="register-item"></span>
                         <button class="register-button curPer" type="button" @click="check">确认</button>
+<<<<<<< HEAD
                     </div>
+=======
+                        
+                    </div>
+                   
+>>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
                 </div> -->
                 <div class="main" >
                     <p class="main_title fColorn"  v-if="!showReset">{{$t('set.forgetPsw')}}</p>
