@@ -57,11 +57,8 @@ export default {
         sweep:'Scan code download',
         android:'Android',
         pinput:'Please enter your email or mobile number',
-<<<<<<< HEAD
-        atrade:'Register a STAREX Global Station Account and Start the Trading Journey'
-=======
-        atrade:'Register a FABCOIN Global Station Account and Start the Trading Journey'
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
+        atrade:'Register a FABCOIN Global Station Account and Start the Trading Journey',
+        download:"download App"
     },
     // 底部
     foo:{
@@ -520,11 +517,7 @@ export default {
         account: 'account',
         psw: 'password',
         login: 'login',
-<<<<<<< HEAD
-        nouser: 'Not a user of STAREX? ',
-=======
         nouser: 'Not a user of FABCOIN? ',
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         goRegister: "Register now and start trading on the world's leading digital asset trading platform",
         registerFree: 'free registration',
         psw6: "Password can't be less than six"
@@ -544,11 +537,7 @@ export default {
         xieyi: 'User Agreement',
         tips01: 'Do not modify the nationality information after registration, please be sure to choose it. ',
         tips02: 'Verification emails may be misidentified as spam, please check. ',
-<<<<<<< HEAD
-        tips03: 'Please save your STAREX account and login password. ',
-=======
         tips03: 'Please save your FABCOIN account and login password. ',
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         tips04: 'Do not use the same login password as other websites. ',
         emailFalse: 'The mailbox you entered does not match the rule'
     },
@@ -624,15 +613,9 @@ export default {
         foundedOn: "Founded on",
         commonProblem: "Common problem",
         statement: "Interpretative statement",
-<<<<<<< HEAD
-        about: "About STAREX",
-        everyone: "Everyone is CEO",
-        program: "STAREX Global Partners Program",
-=======
         about: "About FABCOIN",
         everyone: "Everyone is CEO",
         program: "FABCOIN Global Partners Program",
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         program2: "Partners",
         myMine: "My mine:",
         friend: "My mine friend:",

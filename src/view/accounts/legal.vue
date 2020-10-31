@@ -59,7 +59,7 @@
               <!-- <span @click="excharge(index,item.currency)">充币</span>
               <span @click="withdraw(index,item.currency)">提币</span> -->
               <!-- <span @click="exchange">兑换</span> -->
-              <span @click="go_legalAccount(item.currency)">{{$t('asset.record')}}</span>
+              <span @click="go_legalAccount(item.currency)" style="padding: 0 5px;">{{$t('asset.record')}}</span>
               <span @click="$router.push({path:'/transferLegal',query:{id:item.currency}})">{{$t('asset.transfer')}}</span>
             </p>
           </div>

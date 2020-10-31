@@ -80,21 +80,4 @@ export default {
   }
 };
 </script>
-<style lang="scss" scoped>
-
-
-</style>
-
-
-    
-    
-    
-
-
-
-
-
-
-
-// WEBPACK FOOTER //
-// src/components/home.vue
+<style lang="scss" scoped></style>

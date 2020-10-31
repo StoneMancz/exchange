@@ -45,11 +45,7 @@
                 @click="withdraw(index,item.currency,item.currency_name,item.contract_address,item.is_show_memo,2)"
                 style="padding: 0 5px;"
               >{{$t('asset.withdraw')}}</span>
-<<<<<<< HEAD
               <span @click="rec(index,item.currency)" style="padding: 0 5px;">{{$t('asset.record')}}</span>
-=======
-              <span @click="rec(index,item.currency)">{{$t('asset.record')}}</span>
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
               <span @click="$router.push({path:'/transferLegal',query:{id:item.currency}})">{{$t('asset.transfer')}}</span>
             </p>
           </div>

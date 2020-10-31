@@ -57,11 +57,7 @@ zdy :{
         sweep : '다운로드 할 코드 스캔',
         android : '기계적 인조 인간',
         pinput : '이메일 또는 전화 번호를 입력하세요',
-<<<<<<< HEAD
-        atrade : '거래 여정을 시작하려면 STAREX 글로벌 스테이션 계정을 등록하십시오'
-=======
         atrade : '거래 여정을 시작하려면 FABCOIN 글로벌 스테이션 계정을 등록하십시오'
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
     },
     // 하단
     foo : {
@@ -522,11 +518,7 @@ changeUselg : '코인 계정을 사용할 수 있습니다',
         account : '계정',
         psw : '암호',
         login : '로그인',
-<<<<<<< HEAD
-        nouser : '아직 STAREX 사용자가 아니십니까? ',
-=======
         nouser : '아직 FABCOIN 사용자가 아니십니까? ',
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         goRegister : '지금 등록하고 세계 최고의 디지털 자산 거래 플랫폼에서 거래를 시작하세요. ',
         registerFree : '무료 등록',
         psw6 : '암호는 6 자리 이상이어야합니다.'
@@ -546,11 +538,7 @@ changeUselg : '코인 계정을 사용할 수 있습니다',
         xieyi : ' "사용자 동의"',
         tips01 : '등록 후 국적 정보는 수정할 수 없으므로 반드시 정직하게 선택 해주세요. ',
         tips02 : '확인 이메일이 스팸으로 잘못 판단 될 수 있으니주의 깊게 확인하시기 바랍니다. ',
-<<<<<<< HEAD
-        tips03 : 'STAREX 계정과 로그인 비밀번호를 올바르게 보관하십시오. ',
-=======
         tips03 : 'FABCOIN 계정과 로그인 비밀번호를 올바르게 보관하십시오. ',
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         tips04 : '다른 웹 사이트와 동일한 로그인 비밀번호를 사용하지 마십시오. ',
         emailFalse : '입력하신 이메일 주소가 규칙에 맞지 않습니다.'
     },
@@ -628,15 +616,9 @@ changeUselg : '코인 계정을 사용할 수 있습니다',
         foundOn : "생성 일",
         commonProblem : "일반적인 문제",
         statement : "설명",
-<<<<<<< HEAD
-        about : "STAREX 정보",
-        everyone : "모두가 CEO입니다",
-        program : "STAREX 글로벌 파트너 프로그램",
-=======
         about : "FABCOIN 정보",
         everyone : "모두가 CEO입니다",
         program : "FABCOIN 글로벌 파트너 프로그램",
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         program2 : "파트너 프로그램",
         myMine : "내 내 :",
         friend : "내 친구 :",

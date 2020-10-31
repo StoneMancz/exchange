@@ -156,8 +156,3 @@ export default {
   }
 }
 </style>
-
-
-
-// WEBPACK FOOTER //
-// src/components/dealCenter.vue

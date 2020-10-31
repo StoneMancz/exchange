@@ -5,51 +5,25 @@ import VueRouter from 'vue-router';
 import Axios from 'axios';
 import Util from './lib/utils.js';
 import VueAxios from 'vue-axios';
-import Qs from 'qs'
-import "@/assets/style/common.css"
-import "@/assets/style/font.css"
-import "@/assets/style/public.css"
+import Qs from 'qs';
+import "@/assets/style/common.css";
+import "@/assets/style/font.css";
+import "@/assets/style/public.css";
 import VueSocketio from 'vue-socket.io'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import i18n from './lang/lang'
-// Vue.use(Slider)
+import i18n from './lang/lang';
 Vue.use(VueRouter);
 Vue.use(ElementUI);
-// Vue.use(Select)
-// Vue.use(Option)
-//Vue.use(VueAxios, Axios)
-// Vue.component(Slider.name, Slider)
-// Vue.component(Select.name, Select)
-// Vue.component(Option.name, Option)
-// Vue.component(Collapse.name, Collapse)
-// Vue.component(CollapseItem.name, CollapseItem)
-// Vue.component(Pagination.name, Pagination)
-// Vue.component(Breadcrumb.name, Breadcrumb)
-// Vue.component(BreadcrumbItem.name, BreadcrumbItem)
-// Vue.component(Dialog.name, Dialog)
-// Vue.component(Button.name, Button)
-// Vue.component(MessageBox.name, MessageBox)
-// Vue.component(Switch.name, Switch)
-// Vue.component(Dropdown.name, Dropdown)
-// Vue.component(DropdownMenu.name, DropdownMenu)
-// Vue.component(DropdownItem.name, DropdownItem)
-// import echarts from 'echarts'
-import VueAwesomeSwiper from 'vue-awesome-swiper'
-import store from './store'
+import VueAwesomeSwiper from 'vue-awesome-swiper';
+import store from './store';
 Vue.use(VueAwesomeSwiper)
-// Vue.prototype.$echarts = echarts
 Vue.prototype.$ajax= Axios
 var url;
 var urls = "";
 if(process.env.NODE_ENV=='development'){
-<<<<<<< HEAD
 	url="3.1.107.1";
 	urls = 'http://3.1.107.1'
-=======
-	url="161.117.251.19";
-	urls = 'http://161.117.251.19'
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
 }else{
 	url=location.host;
 	var _PROTOCOL = window.location.protocol;
@@ -85,20 +59,12 @@ if(localStorage.getItem('socketPort')){
 
 Vue.use(new VueSocketio({
 	debug: true,
-<<<<<<< HEAD
     connection:"http://3.1.107.1:2000",
-=======
-    connection:"http://161.117.251.19:2000",
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
 }))
 
 Vue.config.productionTip = false
 
-<<<<<<< HEAD
 Axios.defaults.baseURL = 'http://3.1.107.1/';
-=======
-Axios.defaults.baseURL = 'http://161.117.251.19/';
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
 Axios.interceptors.request.use(function (config) {
 	if (config.url.indexOf('?') === -1) {
 		config.url = config.url + '?_timespan=' + (new Date()).getTime()

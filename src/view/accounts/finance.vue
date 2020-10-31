@@ -44,7 +44,7 @@
                         </p>
                     </div>
                     <div class="convert flex1 ft12 operation">
-                        <span @click="go_legalAccount(item.currency)">{{$t('asset.record')}}</span>
+                        <span @click="go_legalAccount(item.currency)" style="padding: 0 5px;">{{$t('asset.record')}}</span>
                         <span @click="$router.push({path:'/transferLever',query:{id:item.currency}})">{{$t('asset.transfer')}}</span>
                     </div>
                 </div>

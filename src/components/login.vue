@@ -162,11 +162,7 @@ export default {
       let isMb = this.isMb;
       let url = "sms_send";
       if (this.account_number.length == "") {
-<<<<<<< HEAD
         layer.tips(this.$t('set.enterAccount'), "#account");
-=======
-        this.$layer.tips(this.$t('set.enterAccount'), "#account");
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         return;
       } else if (e.target.disabled) {
         return;
@@ -185,11 +181,7 @@ export default {
         method: "post",
         data: data
       }).then(res => {
-<<<<<<< HEAD
         layer.msg(res.data.message);
-=======
-        this.$layer.msg(res.data.message);
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         if(res.data.type=='ok'){
           // layer.msg()
             var time = 60;
@@ -212,28 +204,16 @@ export default {
       let account_number = this.$utils.trim(this.account_number);
       let password = this.$utils.trim(this.password);
       if (this.account_number.length == "") {
-<<<<<<< HEAD
         layer.tips(this.$t('set.enterAccount'), "#account");
         return;
       }
       if (this.password.length < 6) {
         layer.tips(this.$t('login.psw6'), "#pwd");
-=======
-        this.$layer.tips(this.$t('set.enterAccount'), "#account");
-        return;
-      }
-      if (this.password.length < 6) {
-        this.$layer.tips(this.$t('login.psw6'), "#pwd");
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
         return;
       }
       if (this.shows) {
         if (!this.code) {
-<<<<<<< HEAD
           layer.tips(this.$t('set.enterCode'), "#code");
-=======
-          this.$layer.tips(this.$t('set.enterCode'), "#code");
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
           return;
         }
       }
@@ -258,11 +238,8 @@ export default {
       })
         .then(res => {
           //this.$layer.close(i);
-<<<<<<< HEAD
           console.log("查看登录结果");
           console.log(res);
-=======
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
           res = res.data;
           if (res.type === "ok") {
             localStorage.setItem("token", res.message);
@@ -272,11 +249,7 @@ export default {
             this.getLang();
             this.userInfo();
           } else {
-<<<<<<< HEAD
             layer.msg(res.message);
-=======
-            this.$layer.msg(res.message);
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
           }
         })
         .catch(error => {

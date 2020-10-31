@@ -182,10 +182,10 @@ export default {
         return;
       } else if (isMb) {
         var reg = /^1[3456789]\d{9}$/;
-        // if (!reg.test(this.account)) {
-        //   // layer.msg("您输入的手机号不符合规则");
-        //   // return;
-        // }
+        if (!reg.test(this.account)) {
+          layer.msg("您输入的手机号不符合规则");
+          return;
+        }
       } else if (!isMb) {
         var emreg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
         if (!emreg.test(this.account)) {
@@ -210,6 +210,8 @@ export default {
         method: "post",
         data: data
       }).then(res => {
+        console.log("===查看返回数据===");
+        console.log(res);
         layer.close(loa);
         layer.msg(res.data.message);
         if(res.data.type=='ok'){
@@ -519,8 +521,3 @@ button {
   }
 }
 </style>
-
-
-
-// WEBPACK FOOTER //
-// src/components/register.vue

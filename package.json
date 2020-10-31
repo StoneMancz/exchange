@@ -36,8 +36,4 @@
     "sass-loader": "^10.0.3",
     "vue-template-compiler": "^2.6.11"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e2087b23b453b154ceca93f8e75b41ebce2b2e26
