@@ -237,7 +237,7 @@
 <script>
 import indexHeader from "@/view/indexHeader";
 import left from "@/view/left";
-import "@/lib/clipboard.min.js";
+import ClipboardJS from 'clipboard'
 import $ from 'jquery'
 import "@/lib/jquery.qrcode.min.js";
 import QRCode from 'qrcodejs2'
@@ -346,7 +346,7 @@ export default {
     },
     init() {
       var that = this;
-      var clipboard = new Clipboard(".copy");
+      var clipboard = new ClipboardJS(".copy");
       clipboard.on("success", function(e) {
         layer.alert(that.$t("set.copysuccess"));
       });
@@ -718,7 +718,7 @@ export default {
     //复制
     copy() {
       var that = this;
-      var clipboard = new Clipboard(".copy", {
+      var clipboard = new ClipboardJS(".copy", {
         text: function() {
           return that.excharge_address;
         }
@@ -734,7 +734,7 @@ export default {
     },
     copy2(e) {
       var that = this;
-      var clipboard = new Clipboard(".copy2", {
+      var clipboard = new ClipboardJS(".copy2", {
         text: function() {
           return that.labelText;
         }

@@ -22,8 +22,8 @@ Vue.prototype.$ajax= Axios
 var url;
 var urls = "";
 if(process.env.NODE_ENV=='development'){
-	url="3.1.107.1";
-	urls = 'http://3.1.107.1'
+	url="47.241.118.69";
+	urls = 'http://47.241.118.69'
 }else{
 	url=location.host;
 	var _PROTOCOL = window.location.protocol;
@@ -59,12 +59,12 @@ if(localStorage.getItem('socketPort')){
 
 Vue.use(new VueSocketio({
 	debug: true,
-    connection:"http://3.1.107.1:2000",
+    connection:"http://47.241.118.69:2000",
 }))
 
 Vue.config.productionTip = false
 
-Axios.defaults.baseURL = 'http://3.1.107.1/';
+Axios.defaults.baseURL = 'http://47.241.118.69/';
 Axios.interceptors.request.use(function (config) {
 	if (config.url.indexOf('?') === -1) {
 		config.url = config.url + '?_timespan=' + (new Date()).getTime()
