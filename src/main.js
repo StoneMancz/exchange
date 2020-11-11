@@ -64,7 +64,7 @@ Vue.use(new VueSocketio({
 
 Vue.config.productionTip = false
 
-Axios.defaults.baseURL = 'http://47.241.118.69/';
+Axios.defaults.baseURL = 'http://m.shinewow.com.cn/';
 Axios.interceptors.request.use(function (config) {
 	if (config.url.indexOf('?') === -1) {
 		config.url = config.url + '?_timespan=' + (new Date()).getTime()
@@ -147,12 +147,6 @@ Axios.interceptors.response.use(function(response){
 })
 
 Axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
-
-//Axios.defaults.baseURL = ''Axios.defaults.headers = { 'Content-Type': 'application/json;charset=UTF-8' }
-// Axios.defaults.withCredentials = true;
-// Axios.defaults.transformRequest = [(data) => {
-// 	return Qs.stringify(data)
-// }]
 Vue.use(Util);
 Vue.filter('numFilter', function (value) {
 	//截取当前数据到小数点后五位

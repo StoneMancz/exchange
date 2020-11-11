@@ -49,11 +49,11 @@
           </div>
           <input type="text" v-if="!isMb" v-model="account" class="input_color bd bg-part">
         </div>
-          <div class="tip" style="margin-bottom:10px">{{$t('set.enterCode')}}</div>
-          <div class="code-box flex between">
+          <!-- <div class="tip" style="margin-bottom:10px">{{$t('set.enterCode')}}</div> -->
+          <!-- <div class="code-box flex between">
             <input type="text" v-model="code" class="code input_color bd bg-part">
             <button type='button' class="code-btn curPer bg-part  input_color" @click="sendCode">{{$t('set.sendCode')}}</button>
-          </div>
+          </div> -->
           <div class="pwd-box">
             <div class="tip">{{$t('set.enterPsw')}}</div>
             <input type="password" v-model="pwd" class="pwd-input input_color bd bg-part" :placeholder="$t('register.psw16')">

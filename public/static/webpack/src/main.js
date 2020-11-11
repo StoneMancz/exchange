@@ -156,7 +156,6 @@ Axios.interceptors.response.use(function(response){
 })
 //Axios.defaults.baseURL = ''
 // Axios.defaults.headers = { 'Content-Type': 'application/json;charset=UTF-8' }application/x-www-form-urlencoded
-// Axios.defaults.withCredentials = true;
 Vue.config.productionTip = false;
 Axios.defaults.transformRequest = [(data) => {
 	return Qs.stringify(data)
